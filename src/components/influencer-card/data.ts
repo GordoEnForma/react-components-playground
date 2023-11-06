@@ -2,7 +2,7 @@ export const data: Influencer[] = [
   {
     id: 1,
     uuid: "e8edd791-a6e4-4fec-bc47-e24d6a762b01",
-    name: "Daniella",
+    name: "El Chamo",
     lastname: "Acosta",
     email: null,
     cellphone: null,
