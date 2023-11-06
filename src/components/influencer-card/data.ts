@@ -44,7 +44,7 @@ export const data: Influencer[] = [
     referencePrice: 50,
     profilePhotoUrl:
       "https://images.unsplash.com/profile-1446404465118-3a53b909cc82?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128&s=27a346c2362207494baa7b76f5d606e5",
-    interests: ["Fashion", "Traveler", "Technology, Data"],
+    interests: ["Traveler", "Technology, Data"],
     socialMedia: [
       {
         socialMedia: "Instagram",
