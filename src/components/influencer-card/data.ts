@@ -39,7 +39,7 @@ export const data: Influencer[] = [
     email: null,
     cellphone: "913061060",
     country: "Peru",
-    region: "Lima",
+    region: "Callao",
     exchange: true,
     referencePrice: 50,
     profilePhotoUrl:
@@ -105,7 +105,7 @@ export const data: Influencer[] = [
     country: "Peru",
     region: "Madre de Dios",
     exchange: false,
-    referencePrice: 265,
+    referencePrice: 3000,
     profilePhotoUrl:
       "https://images.unsplash.com/profile-1446404465118-3a53b909cc82?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128&s=27a346c2362207494baa7b76f5d606e5",
     interests: ["Foodie", "Traveler"],
@@ -135,7 +135,7 @@ export const data: Influencer[] = [
     email: null,
     cellphone: "985748528",
     country: "Peru",
-    region: "Lima",
+    region: "Huancavelica",
     exchange: false,
     referencePrice: 85,
     profilePhotoUrl:
