@@ -1,6 +1,6 @@
 import { Influencer } from "./data";
 import { FaTiktok, FaInstagram } from "react-icons/fa6";
-import {FaMapMarkerAlt} from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import { formatAmmountBy } from "../../utils/formatters";
 
 export const InfluencerCard = ({ influencer }: { influencer: Influencer }) => {
@@ -21,16 +21,18 @@ export const InfluencerCard = ({ influencer }: { influencer: Influencer }) => {
       </div>
       <div className="flex lg:flex-col justify-around bg-black shadow-xl">
         <div className="flex flex-col relative items-center justify-center lg:mb-8 ">
-          <figure className=" relative lg:h-[240px] lg:w-[240px] w-[144px] h-[144px] bg-gradient-to-r from-amber-500 to-red-400 rounded-full">
-            <img
-              className="rounded-full absolute top-[1.4px] left-[1.6px]   lg:h-[236px] lg:w-[236px] w-[140px] h-[140px]"
-              loading="lazy"
-              src={influencer.profilePhotoUrl}
-              alt="Movie"
-              height={120}
-              width={120}
-            />
-          </figure>
+          <div className="bg-gradient-to-r from-amber-500 to-fuchsia-700 p-1 rounded-full">
+            <figure className="bg-black p-1 rounded-full">
+              <img
+                className="rounded-full "
+                loading="lazy"
+                src={influencer.profilePhotoUrl}
+                alt="Movie"
+                height={120}
+                width={120}
+              />
+            </figure>
+          </div>
           {/* {influencer.exchange ? (
             // <div className="badge bg-yellow-200 mt-1 lg:absolute lg:bottom-0 text-black ">Canje</div>
             <div className="badge lg:badge-lg absolute bottom-[15px] lg:bottom-[-10px] bg-green-400 mt-1  text-black ">
