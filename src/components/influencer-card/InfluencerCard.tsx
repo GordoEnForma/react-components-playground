@@ -5,7 +5,7 @@ import { formatAmmountBy } from "../../utils/formatters";
 
 export const InfluencerCard = ({ influencer }: { influencer: Influencer }) => {
   return (
-    <div className="flex w-[22rem] flex-col bg-black rounded-2xl border-base-100 border-4 hover:border-yellow-100 hover:border-4">
+    <div className="glow flex w-[22rem] flex-col bg-black rounded-2xl border-base-100 border-4 hover:border-yellow-100 hover:border-4">
       <h1 className="text-3xl mt-5 text-center font-bold text-yellow-100">
         {influencer.name}
       </h1>
@@ -45,12 +45,12 @@ export const InfluencerCard = ({ influencer }: { influencer: Influencer }) => {
         </div>
         <div className="flex flex-col items-center gap-4 mt-2 lg:mt-0">
           <div className="flex flex-col lg:flex-row gap-4">
-            <div className="inline-flex min-w-[130px]  items-center border-2 border-yellow-100 font-semibold justify-center gap-1 px-3 py-2  rounded-lg">
+            <div className="inline-flex min-w-[130px] hover:bg-yellow-200 items-center border-2 border-yellow-100 font-semibold justify-center gap-1 px-3 py-2  rounded-lg group">
               <FaMapMarkerAlt
                 size={18}
-                className="text-yellow-200 mt-[2px] mr-1"
+                className="text-yellow-200 mt-[2px] mr-1 group-hover:text-black"
               />
-              <span className="text-base text-yellow-100 ">
+              <span className="text-base text-yellow-100 transition-colors duration-300 group-hover:text-black  ">
                 {influencer.region}
               </span>
             </div>
@@ -90,7 +90,7 @@ export const InfluencerCard = ({ influencer }: { influencer: Influencer }) => {
         </div>
       </div>
       <div className="w-full flex justify-center my-6 ">
-        <button className="border-yellow-200 border-2 text-yellow-200 px-8 py-1 text-sm lg:text-xl capitalize  text-center hover:bg-yellow-200 hover:text-black  rounded-xl  font-semibold ">
+        <button className="border-yellow-200 border-2 text-yellow-200 px-8 py-2 text-sm lg:text-xl capitalize  text-center hover:bg-yellow-200 hover:text-black  rounded-xl  font-semibold ">
           Contactar
         </button>
       </div>
